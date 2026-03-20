@@ -1,0 +1,35 @@
+package rakshana;
+import java.util.Scanner;
+public class Task2 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String[]words= {
+				"zero","one","two","three","four","five",
+				"six","seven","eight","nine"
+		};
+		System.out.println("Enter the number from (0-9)");
+		String a=sc.next();
+        int num=Integer.parseInt(a);
+		if(num>=0 && num<=9)
+		{
+			System.out.println("output:"+words[num]);
+		}
+		else
+		{
+			System.out.println("Invaild input");
+		}
+    }
+
+output:
+Enter the number from (0-9)
+0
+output:zero
+Enter the number from (0-9)
+8
+output:eight
+
+
+
+    
+    
